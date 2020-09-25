@@ -7,7 +7,7 @@ const app = express();
 
 connectDB();
 
-//INit Middeleware
+//Init Middeleware
 app.use(express.json({ extended: false }));
 
 app.get('/', (req, res) => res.send('API Running'));
